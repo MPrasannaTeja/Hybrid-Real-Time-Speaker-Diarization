@@ -1,7 +1,5 @@
 # Hybrid-Real-Time-Speaker-Diarization
 A Hybrid Real-Time Speaker Diarization System that combines offline processing for accuracy with online subsystems for real-time performance
-# Hybrid Real-Time Speaker Diarization System
-
 ## Description
 This project presents a novel Hybrid Real-Time Speaker Diarization System that combines offline processing for accuracy with online subsystems for real-time performance. Our approach leverages Mel-Frequency Cepstral Coefficients (MFCCs) for feature extraction, followed by low-rank deep embedding to obtain compact yet informative speaker representations.
 
