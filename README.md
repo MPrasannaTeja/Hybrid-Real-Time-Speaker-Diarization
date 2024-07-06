@@ -24,3 +24,30 @@ Speaker diarization is the process of segmenting and labeling audio data based o
 To install the necessary dependencies, run the following command:
 ```bash
 pip install -r requirements.txt
+
+## Usage
+
+1. **Feature Extraction**:
+    ```python
+    from src import feature_extraction
+    mfcc_features = feature_extraction.extract_mfcc(audio_file)
+    ```
+
+2. **Offline Processing**:
+    ```python
+    from src import offline_processing
+    speaker_segments = offline_processing.process_audio(mfcc_features)
+    ```
+
+3. **Online Processing**:
+    ```python
+    from src import online_processing
+    real_time_labels = online_processing.process_stream(audio_stream)
+    ```
+
+4. **Hybrid System**:
+    ```python
+    from src import hybrid_system
+    hybrid_labels = hybrid_system.process(audio_file)
+    ```
+
